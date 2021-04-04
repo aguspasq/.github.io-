@@ -1,9 +1,17 @@
+/*Le consulte a Nico algunas cosas y me dijo que unifiquemos en una sola hoja de estilos*/
+
 .naveg{
     position: relative;
     left: 25%;
     bottom: 54px;
+    
 }
 
+.naveg a{
+    border: 1px solid #000000;
+    padding-top: 15px;
+    background: linear-gradient(90deg, rgba(210,36,7,1) 0%, rgba(219,122,104,1) 25%, rgba(209,175,175,1) 100%);
+}
 .banner{
     margin: 50px;
     background-color: #ffd401;
@@ -31,15 +39,48 @@
     box-sizing: border-box; 
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+    
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    padding: 2px;
+}
 
 h2{
+    background-color:lavender;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #000000;
+    padding: 2px;
+}
+
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #000000;
+}
+
+.h1Muf{
+    background-color: #F2C07C;   
+}
+
+.h1Lem{
+    background-color: #FEF400;
+}
+
+.h2Index{
     font-family: 'Ubuntu Condensed', sans-serif;
     text-transform: uppercase;
     font-size: medium;
 }
 
-
-p{
+.pIndex{
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: medium;
 }
