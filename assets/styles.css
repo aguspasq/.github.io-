@@ -10,6 +10,7 @@
 .naveg a{
     border: 1px solid #000000;
     padding-top: 15px;
+    padding-bottom: 5px;
     background: linear-gradient(90deg, rgba(210,36,7,1) 0%, rgba(219,122,104,1) 25%, rgba(209,175,175,1) 100%);
 }
 .banner{
